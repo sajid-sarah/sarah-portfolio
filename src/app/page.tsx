@@ -6,6 +6,10 @@ export default async function HomePage() {
 
   return (
     <Container>
+      {/* Under construction notice */}
+      <div className="mb-8 rounded-xl border border-neutral-200 bg-neutral-50 px-4 py-3 text-sm text-neutral-700">
+        🚧 Portfolio under construction — content and visuals are still being refined.
+      </div>
       <section className="py-12">
         <h1 className="text-3xl font-semibold tracking-tight">
           Frontend AI Developer
