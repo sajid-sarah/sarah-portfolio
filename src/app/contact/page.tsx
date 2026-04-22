@@ -6,18 +6,40 @@ export default function ContactPage() {
       <section className="py-12">
         <h1 className="text-2xl font-semibold">Contact</h1>
         <p className="mt-2 text-neutral-600">
-          You can reach me here:
+          Open to frontend and full-stack roles in Berlin and remote. Feel free to reach out.
         </p>
 
-        <div className="mt-6 space-y-2 text-sm">
+        <div className="mt-8 space-y-3 text-sm">
           <div>
-            Email: <a className="underline" href="mailto:sarahsajid16@gmail.com">sarahsajid16@gmail.com</a>
+            <span className="text-neutral-400 w-20 inline-block">Email</span>
+            <a
+              className="underline underline-offset-4 text-neutral-700 hover:text-neutral-900"
+              href="mailto:sarahsajid16@gmail.com"
+            >
+              sarahsajid16@gmail.com
+            </a>
           </div>
           <div>
-            GitHub: <a className="underline" href="https://github.com/sajid-sarah" target="_blank">github.com/sajid-sarah</a>
+            <span className="text-neutral-400 w-20 inline-block">GitHub</span>
+            <a
+              className="underline underline-offset-4 text-neutral-700 hover:text-neutral-900"
+              href="https://github.com/sajid-sarah"
+              target="_blank"
+              rel="noreferrer"
+            >
+              github.com/sajid-sarah
+            </a>
           </div>
           <div>
-            LinkedIn: <a className="underline" href="https://linkedin.com" target="_blank">LinkedIn</a>
+            <span className="text-neutral-400 w-20 inline-block">LinkedIn</span>
+            <a
+              className="underline underline-offset-4 text-neutral-700 hover:text-neutral-900"
+              href="https://linkedin.com/in/sarah-sajid-87966b52"
+              target="_blank"
+              rel="noreferrer"
+            >
+              linkedin.com/in/sarah-sajid-87966b52
+            </a>
           </div>
         </div>
       </section>

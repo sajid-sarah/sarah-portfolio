@@ -20,11 +20,18 @@ export default function PublicationsPage() {
               <p className="mt-2 text-sm text-neutral-600">{pub.venue}</p>
               <p className="mt-2 text-sm text-neutral-500">{pub.authors}</p>
 
-              {pub.link && (
-                <div className="mt-3 text-sm">
-                  <a className="underline" href={pub.link} target="_blank">
-                    View
-                  </a>
+              {(pub.link || pub.demo) && (
+                <div className="mt-3 flex gap-4 text-sm">
+                  {pub.link && (
+                    <a className="underline underline-offset-4 text-neutral-500 hover:text-neutral-900" href={pub.link} target="_blank" rel="noreferrer">
+                      View
+                    </a>
+                  )}
+                  {pub.demo && (
+                    <a className="underline underline-offset-4 text-neutral-500 hover:text-neutral-900" href={pub.demo} target="_blank" rel="noreferrer">
+                      Demo
+                    </a>
+                  )}
                 </div>
               )}
             </article>

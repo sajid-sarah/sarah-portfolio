@@ -5,6 +5,7 @@ export const publications = [
     venue: "ESWC 2025 Satellite Events (LNCS)",
     authors:
       "Sarah Sajid, Antonis Klironomos, Evgeny Kharlamov, Frank Hopfgartner, Mohamed H. Gad-Elrab",
-    link: "", // add DOI / Springer / PDF link later
+    link: "https://link.springer.com/chapter/10.1007/978-3-031-99554-5_24",
+    demo: "https://youtu.be/0zCtNtqx2lc",
   },
 ];
