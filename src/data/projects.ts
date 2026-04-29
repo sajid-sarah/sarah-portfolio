@@ -23,6 +23,17 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    name: "Saru",
+    description: "A café web shop with a full order flow and AI-powered drink and snack recommendations.",
+    longDescription:
+      "A SvelteKit web shop for a fictional Berlin café. Browse the menu by category, customise orders with milk and variation options, and manage a persistent bag — all built with Svelte 5 runes. The 'For you' page lets users describe their mood and get two personalised recommendations via a Groq-powered server endpoint. Cart state, modal interactions, and the order flow demonstrate complex stateful UI patterns.",
+    tags: ["SvelteKit", "TypeScript", "Tailwind CSS", "Groq API", "Svelte 5"],
+    type: "side-project",
+    github: "https://github.com/sajid-sarah/saru",
+    live: "https://saru-green.vercel.app",
+    featured: true,
+  },
+  {
     name: "Flashcard Generator",
     description: "Turns short study notes into flashcards using an LLM. Built with React, TypeScript, and Groq.",
     longDescription:
