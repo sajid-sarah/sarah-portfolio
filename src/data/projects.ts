@@ -23,6 +23,17 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    name: "JobPal",
+    description: "AI-assisted job application tracker with OAuth sign-in, hosted Postgres, and a guest demo mode.",
+    longDescription:
+      "Next.js App Router app for tracking job applications: paste a job description, an LLM extracts company, role, skills, and dates, and the app schedules follow-up reminders across a status pipeline. Built as a production-grade portfolio piece with Auth.js v5 (GitHub, Google, and a guest Credentials provider), per-user data scoping enforced at both the edge proxy and the query layer, Prisma migrations against Neon Postgres, and sliding-window rate limiting on the LLM endpoint via Upstash Redis. Deployed on Vercel; guests can click through with seeded sample data.",
+    tags: ["Next.js", "TypeScript", "Auth.js", "Prisma", "Neon Postgres", "Upstash Redis", "Groq LLM", "Vercel"],
+    type: "side-project",
+    github: "https://github.com/sajid-sarah/jobpal",
+    live: "https://jobpal-hazel.vercel.app",
+    featured: true,
+  },
+  {
     name: "Saru",
     description: "A café web shop with a full order flow and AI-powered drink and snack recommendations.",
     longDescription:
