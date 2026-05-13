@@ -3,7 +3,7 @@ import Nav from "@/components/Nav";
 
 export const metadata = {
   title: "Sarah Sajid",
-  description: "Frontend/AI Developer — Portfolio",
+  description: "Frontend developer, full-stack researcher portfolio",
 };
 
 export default function RootLayout({

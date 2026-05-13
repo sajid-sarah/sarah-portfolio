@@ -32,13 +32,15 @@ export default function HomePage() {
       <section className="py-16 sm:py-20">
         <h1 className="text-4xl font-semibold tracking-tight">Sarah Sajid</h1>
         <p className="mt-2 text-lg text-neutral-500 font-medium">
-          Software Engineer
+          Frontend developer · Full-stack · Researcher
         </p>
         <p className="mt-4 max-w-2xl text-neutral-600 leading-relaxed">
-          Frontend engineer building at the intersection of UI and AI. Most
-          recently designed and built an LLM-integrated research platform at
-          Bosch AI, combining frontend engineering with AI integration and
-          user research. Based in Berlin.
+          I build web apps and weave LLMs into them, somewhere between shipping
+          product and asking what AI changes about how we ship product. My
+          research background is at Bosch's AI Center, where I designed and
+          shipped an LLM-integrated platform for no-code ML pipelines (ESWC
+          2025). Most of what I think about sits at the intersection of
+          frontend, LLMs, and human-AI interaction.
         </p>
         <div className="mt-6 flex flex-wrap gap-4 text-sm">
           <a
